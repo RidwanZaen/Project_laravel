@@ -1,0 +1,88 @@
+/* Basic'c Tag */
+
+body {
+    background-color: #090910;
+  }
+  
+  /* Class Carousel */
+
+  .carousel-item {
+    height: 670px;
+  }
+  .carousel-item {
+    margin-top: -120px;
+  }
+
+  .carousel-item .display-4 {
+    margin-top: -400px;
+  }
+
+  .carousel-item h1 {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .carousel-item .btn {
+    background-color: rgb(223, 57, 57);
+    border: none;
+  }
+  .carousel-item p{
+    text-align: left;
+  }
+  .carousel-item img{
+    margin-top: 12%;
+  }
+
+  /* Class Card */
+  
+  .card {
+    margin: 3rem auto;
+  }
+  
+  .content h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  .content p {
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Class Footer */
+  
+  .footer-bottom {
+    background: grey;
+    padding: 1rem 0 0.025rem;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+  }
+  
+  /* Class Image */
+  
+  .img-size {
+    width: 18rem;
+  }
+  
+  /* Spacing */
+  
+  .m-phone {
+    margin-bottom: 2rem;
+  }
+  
+  /* Media Query */
+  
+  @media only screen and (min-width: 768px) {
+    .m-phone {
+      margin-bottom: 0;
+    }
+  }
+  
