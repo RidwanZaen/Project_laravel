@@ -20,37 +20,44 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/spiderman.jpg" class="d-block w-100" alt="...">
+      <img src="img/carousel (1).jpeg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
+        <br><br><br><br><br><br><br><br>
       <h1 class="display-4">
       Spider-Man: No Way Home<br />
               
             </h1>
-            <p>Makanan Praktis Dalam Kemasan Beku Siap Masak.</p><br><br>
+            <p>Pasca terbongkarnya identitas Spider-Man, Peter Parker meminta bantuan Doctor Strange. 
+            Namun, ketika mantra salah, musuh berbahaya dari dunia lain mulai muncul, memaksa 
+            Peter untuk menemukan apa artinya menjadi Spider-Man.</p><br><br>
             <a class="btn btn-primary btn-lg" href="PesanSekarang.html" role="button">Pesan Sekarang
               </a>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/Background (1).jpeg" class="d-block w-100" alt="...">
+      <img src="img/carousel (2).jpeg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
+      <br><br><br><br><br><br><br><br>
       <h1 class="display-4">
-      Spider-Man: No Way Home1<br />
+      Sing 2<br />
               
             </h1>
-            <p>Makanan Praktis Dalam Kemasan Beku Siap Masak.</p><br><br>
+            <p>Petualangan Buster Moon dan teman-temannya yang kini harus membujuk bintang rock 
+        Clay Calloway untuk bergabung dengan mereka demi sebuah pembukaan pertunjukan baru yang spektakuler.</p><br><br>
             <a class="btn btn-primary btn-lg" href="PesanSekarang.html" role="button">Pesan Sekarang
               </a>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/Background (1).jpeg" class="d-block w-100" alt="...">
+      <img src="img/carousel (3).jpeg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
+      <br><br><br><br><br><br><br><br>
       <h1 class="display-4">
-      Spider-Man: No Way Home2<br />
+      The King's Man<br />
               
             </h1>
-            <p>Makanan Praktis Dalam Kemasan Beku Siap Masak.</p><br><br>
+            <p>Di awal abad ke-20, agensi Kingsman dibentuk untuk melawan komplotan jahat yang 
+        merencanakan perang untuk memusnahkan jutaan orang.</p><br><br>
             <a class="btn btn-primary btn-lg" href="PesanSekarang.html" role="button">Pesan Sekarang
               </a>
       </div>    
@@ -69,39 +76,38 @@
 <br><br><br><hr><br><br><br>
 
 <!-- Awalan Card -->
-<div class="movie">
-      <div class="row">
-      <div class="card" style="width: 18rem;">
-  <img src="img/luffy.jpg" class="card-img-top" alt="...">
+<div id="card">
+<div class="row">
+      <div class="card" style="width: 17rem;">
+  <img src="img/movie (3).jpeg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Spider-Man: No Way Home (IMAX 2D)</h5>
+    <br><br>
+    <a href='/film' class="btn btn-primary">Lihat Film</a>
   </div>
 </div>
-
-<div class="card" style="width: 18rem;">
-  <img src="img/kaido.jpg" class="card-img-top" alt="...">
+<div class="card" style="width: 17rem;">
+  <img src="img/movie (2).jpeg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Sing 2</h5>
+    <br><br><br>
+    <a href='/film' class="btn btn-primary">Lihat Film</a>
   </div>
 </div>
-<div class="card" style="width: 18rem;">
-  <img src="img/bigmom.jpg" class="card-img-top" alt="...">
+<div class="card" style="width: 17rem;">
+  <img src="img/movie (1).jpeg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">The King's Man</h5>
+    <br><br><br>
+    <a href='/film' class="btn btn-primary">Lihat Film</a>
   </div>
 </div>
-<div class="card" style="width: 18rem;">
-  <img src="img/luffy.jpg" class="card-img-top" alt="...">
+<div class="card" style="width: 17rem;">
+  <img src="img/movie (4).jpeg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">The Ice Road</h5>
+    <br><br><br>
+    <a href='/login' class="btn btn-primary">Lihat Film</a>
   </div>
 </div>
 </div>
@@ -109,4 +115,9 @@
 <!-- Akhiran Card -->
 
 <!-- Awalan Feature -->
+<div id="fitur">
+<img src="img/fitur.jpeg" class="img-fluid" alt="Responsive image">
+  
+</div>
+
 @endsection

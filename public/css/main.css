@@ -50,6 +50,13 @@ body {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  #fitur img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    align-content: center;
+  }
   
   /* Class Footer */
   

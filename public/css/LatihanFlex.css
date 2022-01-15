@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: arial;
+    background-color: #ddd;
+    line-height: 1,65;
+    padding-bottom: 100px;
+}
+/* latihan dua */
+
+.container-satu {
+    max-width: 800px;
+    margin: 50px auto;
+    
+}
+
+.layanan {
+    
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.layanan.satu{
+    background-color: white;
+}
+
+.layanan.dua{
+    background-color: white;
+}
+
+@media (min-width :600px) {
+    .container-satu {
+        display: flex;
+        justify-content: space-between;  
+    }
+    .layanan{
+        width: 100%;
+    }
+
+    .thumbnail {
+        width: 100%;
+    }
+}

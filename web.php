@@ -20,15 +20,24 @@ use App\Http\Controllers\TodoController;
 */
 
 Route::get('/', function () {
+    return view('login');
+});
+route::get('/film', function(){
+    return view('film');
+});
+route::get('/index', function(){
     return view('index');
 });
 
 Route::middleware(['check'])->group(function() {
-    Route::get('/hello', [HelloController::class, 'index']);   
+    Route::get('/hello', [HelloController::class, 'index']);
+    Route::get('/todo', [TodoController::class, 'index'])->name('index');
+       
 });
 
 Route::get('/login', [LoginController::class, 'index'])->name('login.index');
 Route::post('/login', [LoginController::class, 'store'])->name('login.store');
+
 
 Route::get('/register', [RegisterController::class, 'index'])->name('register.index');
 Route::post('/register', [RegisterController::class, 'store'])->name('register.store');
