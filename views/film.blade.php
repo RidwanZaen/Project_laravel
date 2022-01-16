@@ -84,19 +84,11 @@ Rp 385
 
 Total
 Rp 50.385</p>
-<div class="form-group">
-                    <label for="example-todo-title">username</label>
-                    <input value="{{ old('name') }}" name="name" type="text" class="form-control" id="example-todo-title" aria-describedby="emailHelp" placeholder="Enter name" required>
-                </div>
 
-                <div class="form-group">
-                    <label for="example-todo-title">film</label>
-                    <input value="{{ old('email') }}" name="email" type="text" class="form-control" id="example-todo-title" aria-describedby="emailHelp" placeholder="Enter email" required>
-                </div>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary"  onclick="window.location.href='/alert'">SUBMIT</button>
+                    <button type="submit" class="btn btn-primary"  onclick="window.location.href='/create'">SUBMIT</button>
                     
                 </div>
             </div>

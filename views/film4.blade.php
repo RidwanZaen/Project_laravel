@@ -88,8 +88,7 @@ Rp 42.000</p>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary">SUBMIT</button>
-                    <button type="reset" class="btn btn-danger">CANCEL</button>
+                <button type="submit" class="btn btn-primary"  onclick="window.location.href='/create'">SUBMIT</button>
                 </div>
             </div>
         </div>
