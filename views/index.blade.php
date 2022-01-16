@@ -12,6 +12,7 @@
                     {{ session('error') }}
                 </div>
             @endif
+            
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -30,7 +31,7 @@
             <p>Pasca terbongkarnya identitas Spider-Man, Peter Parker meminta bantuan Doctor Strange. 
             Namun, ketika mantra salah, musuh berbahaya dari dunia lain mulai muncul, memaksa 
             Peter untuk menemukan apa artinya menjadi Spider-Man.</p><br><br>
-            <a class="btn btn-primary btn-lg" href="PesanSekarang.html" role="button">Pesan Sekarang
+            <a class="btn btn-primary btn-lg" href="/film" role="button">Pesan Sekarang
               </a>
       </div>
     </div>
@@ -44,7 +45,7 @@
             </h1>
             <p>Petualangan Buster Moon dan teman-temannya yang kini harus membujuk bintang rock 
         Clay Calloway untuk bergabung dengan mereka demi sebuah pembukaan pertunjukan baru yang spektakuler.</p><br><br>
-            <a class="btn btn-primary btn-lg" href="PesanSekarang.html" role="button">Pesan Sekarang
+            <a class="btn btn-primary btn-lg" href="/film2" role="button">Pesan Sekarang
               </a>
       </div>
     </div>
@@ -58,7 +59,7 @@
             </h1>
             <p>Di awal abad ke-20, agensi Kingsman dibentuk untuk melawan komplotan jahat yang 
         merencanakan perang untuk memusnahkan jutaan orang.</p><br><br>
-            <a class="btn btn-primary btn-lg" href="PesanSekarang.html" role="button">Pesan Sekarang
+            <a class="btn btn-primary btn-lg" href="/film3" role="button">Pesan Sekarang
               </a>
       </div>    
     </div>

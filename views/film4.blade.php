@@ -14,7 +14,7 @@
   <body>
   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top " >
       <div class="container">
-        <img src="img/ticket.png" style="margin-right:5px"></img>
+        <img src="img/favicon.ico" style="margin-right:5px"></img>
         <a class="navbar-brand" href="/index">TICO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,29 +29,31 @@
         </div>
       </div>
     </nav>
-    <div class="container-satu">
+<!-- latihan 2 service dan feuture-->
+<div class="container-satu">
     <div class="layanan satu" style="margin: 10vh;">
         <h1>NOW PLAYING</h1>
             <div class="row">
                 <div class="card" style="width: 18rem;">
-                <img src="img/movie (3).jpeg" class="card-img-top" alt="...">
+                <img src="img/ice road.jpg" class="card-img-top" alt="...">
             </div>
         </div>
     </div>
 </div>
 
-<div class="layanan dua"style="margin: 10vh;">
-    <h2>Spider-Man: No Way Home (IMAX 2D)</h2>
-        <p> Jenis Film  : Action, Adventure, Sci-Fi</p>
-        <p> Produser    : Kevin Feige, Amy Pascal</p>
-        <p> Sutradara   : Jon Watts</p>
-        <p> Penulis     : Chris McKenna, Erik Sommers</p>
-        <p> Produksi    : Columbia Pictures</p>
-        <p> Durasi      : 148 Minutes</p>
-        <P> Casts       : Tom Holland, Zendaya, Benedict Cumberbatch, Marisa Tomei, Jon Favreau, 
-                          J.K. Simmons, Willem Dafoe, Angourie Rice, Alfred Molina, Jamie Foxx, Benedict Wong</P>
+<div class="layanan dua" style="margin: 10vh;">
+    <h2>The Ice Road</h2>
+    <br>
+        <p> Jenis Film  : Action, Drama, Thriller</p>
+        <p> Produser    : David Buelow, Al Corley, Lee Nelson, Shivani Rawat, Bart Rosenblatt, David Tish</p>
+        <p> Sutradara   : Jonathan Hensleigh</p>
+        <p> Penulis     : Jonathan Hensleigh</p>
+        <p> Produksi    : Code Entertainment, ShivHans Pictures</p>
+        <p> Durasi      : 109 Minutes</p>
+        <P> Casts       : Liam Neeson, Laurence Fishburne, Benjamin Walker, Amber Midthunder, 
+                          Marcus Thomas, Holt McCallany, Martin Sensmeier</P>
             <ul>
-            <li><a href="https://youtu.be/JfVOs4VSpmA">Watch Trailer</a></li>
+            <li><a href="https://www.youtube.com/watch?v=SHEPdMqrWjE">Watch Trailer</a></li>
             
             </ul>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contohmodal">Beli Film</button>
@@ -60,71 +62,55 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2 class="modal-title">pembayaran</h2>
+                    <h2 class="modal-title">Pembayaran</h2>
                     <button type="button" class="close" data-dismiss="modal" arial-label="close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 
                 <div class="modal-body">
-                <form action="{{ route('register.store') }}" method="POST">
-                    @method("POST")
-                @csrf
-                    <img src="img/transaksi.jpeg">
-                    <h5>Spiderman:No Way Home</h5>
+                    <form>
+                    <img src="img/transaksi4.jpeg">
+                    <h5>The Ice Road</h5>
                     <br><hr>
                     <p>Durasi Sewa 48 Jam<p>
                     <p>Rincian <br>
 Harga Film
-Rp 50.000
+Rp 40.000
 <br>
 Biaya Admin
-Rp 385
+Rp 2.000
 <br>
 
 Total
-Rp 50.385</p>
-<div class="form-group">
-                    <label for="example-todo-title">username</label>
-                    <input value="{{ old('name') }}" name="name" type="text" class="form-control" id="example-todo-title" aria-describedby="emailHelp" placeholder="Enter name" required>
-                </div>
+Rp 42.000</p>
 
-                <div class="form-group">
-                    <label for="example-todo-title">film</label>
-                    <input value="{{ old('email') }}" name="email" type="text" class="form-control" id="example-todo-title" aria-describedby="emailHelp" placeholder="Enter email" required>
-                </div>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary"  onclick="window.location.href='/alert'">SUBMIT</button>
-                    
+                    <button type="submit" class="btn btn-primary">SUBMIT</button>
+                    <button type="reset" class="btn btn-danger">CANCEL</button>
                 </div>
             </div>
         </div>
     </div>
 
 </div>
-    <div class="container1" style="margin:10vh">
-    <p>SINOPSIS</p>
+<div class="container1" style="margin:10vh">
+        <p>SINOPSIS</p>
         <P>
-            Pasca terbongkarnya identitas Spider-Man, Peter Parker meminta bantuan Doctor Strange. 
-            Namun, ketika mantra salah, musuh berbahaya dari dunia lain mulai muncul, memaksa 
-            Peter untuk menemukan apa artinya menjadi Spider-Man.
+        Petualangan Buster Moon dan teman-temannya yang kini harus membujuk bintang rock 
+        Clay Calloway untuk bergabung dengan mereka demi sebuah pembukaan pertunjukan 
+        baru yang spektakuler.
         </P>
-    </div>
-        
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
-      <!-- Awalan Footer -->
-      <div class="bg-dark footer-bottom">
+<!-- Awalan Footer -->
+<div class="bg-dark footer-bottom">
         <p>TICO ID is the leading movie ticket booking application from Indonesia. 
           Book your movie tickets, read the latest movie news at ease, quick & secure without any hassle.</p>
     </div>
-    <!-- Akhiran Footer -->
-</html>
+<!-- Akhiran Footer -->

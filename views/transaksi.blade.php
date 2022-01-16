@@ -27,15 +27,24 @@
                 </div>
                 
                 <div class="modal-body">
-                    <form>
-                        <div class="form-grup">
-                            <label>Nama Lengkap</label>
-                            <input type="text" name="" class="form-control">
-                        </div>
-                    </form>
+                <form action="{{ route('register.store') }}" method="POST">
+                @method("POST")
+                @csrf
+                <div class="form-group">
+                    <label for="example-todo-title">username</label>
+                    <input value="{{ old('name') }}" name="name" type="text" class="form-control" id="example-todo-title" aria-describedby="emailHelp" placeholder="Enter name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="example-todo-title">film</label>
+                    <input value="{{ new('email') }}" name="film" type="text" class="form-control" id="example-todo-title" aria-describedby="emailHelp" placeholder="Enter email" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
                 </div>
                 <div class="modal-footer">
-                <button id='btn_mau' onclick='alert("Transaksi Berhasil")'>Mau</button>&nbsp;
+                    <button type="submit" class="btn btn-primary">SUBMIT</button>
                     <button type="reset" class="btn btn-danger">CANCEL</button>
                 </div>
             </div>
