@@ -18,20 +18,41 @@ use App\Http\Controllers\TodoController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+route::get('/keranjang', function(){
+    return view('keranjang');
+});
 Route::get('/', function () {
     return view('login');
 });
 route::get('/film', function(){
     return view('film');
 });
+route::get('/film2', function(){
+    return view('film2');
+});
+route::get('/film3', function(){
+    return view('film3');
+});
+route::get('/film4', function(){
+    return view('film4');
+});
 route::get('/index', function(){
     return view('index');
+});
+route::get('/create',function(){
+    return view('create');
 });
 
 Route::middleware(['check'])->group(function() {
     Route::get('/hello', [HelloController::class, 'index']);
     Route::get('/todo', [TodoController::class, 'index'])->name('index');
+    Route::get('/todo', [TodoController::class, 'index'])->name('index');
+    Route::get('/todo/create', [TodoController::class, 'create'])->name('create');
+    Route::post('/todo', [TodoController::class, 'store'])->name('store');
+    Route::get('/todo/{id}', [TodoController::class, 'edit'])->name('edit');
+    Route::get('/todo/{id}/done', [TodoController::class, 'done'])->name('done');
+    Route::put('/todo/{id}', [TodoController::class, 'update'])->name('update');
+    Route::delete('/todo/{id}', [TodoController::class, 'destroy'])->name('destroy');   
        
 });
 
